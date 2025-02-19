@@ -51,7 +51,7 @@ function App() {
             />
             <SkillCard 
               icon={<Cpu />}
-              title="Deploy"
+              title="Deployment"
               skills={['Git', 'Tomcat','AWS Amplify']}
             />
           </div>
