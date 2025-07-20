@@ -37,7 +37,7 @@ function App() {
             <SkillCard 
               icon={<Server />}
               title="Backend"
-              skills={['Java', 'Spring Boot', 'JPA/Hibernate', 'RESTful APIs']}
+              skills={['Java', 'Spring Boot','Microservices', 'JPA/Hibernate']}
             />
             <SkillCard 
               icon={<Globe />}
@@ -47,12 +47,12 @@ function App() {
             <SkillCard 
               icon={<Database />}
               title="Database"
-              skills={['MySQL']}
+              skills={['MySQL','PostgreSQL','Native SQL']}
             />
             <SkillCard 
               icon={<Cpu />}
               title="Deploy"
-              skills={['Git', 'Tomcat','AWS Amplify']}
+              skills={['Git-Pages', 'Tomcat','Jump Servers']}
             />
           </div>
         </div>
@@ -69,9 +69,9 @@ function App() {
               tech={['Monolithic', 'Spring Boot', 'React', 'My SQL','UI & UX','Looker Studio']}
             />
             <ProjectCard 
-              title="DigiHub"
-              description="Built a team collaboration Web Application with real-time uploading data. Features include Batch assignment, progress tracking, and file sharing."
-              tech={['Micro Services', 'Spring Boot', 'React', 'My SQL']}
+              title="PMS(Performance Measurement System)"
+              description="Built an application with real-time data. Features include Employee Performance Measurement Using BSC Model, progress tracking, Employee Rating, Multi Level Approval System custom query manipulating data"
+              tech={['Monolithic', 'Spring Boot', 'My SQL']}
             />
           </div>
         </div>
@@ -85,8 +85,8 @@ function App() {
             <ExperienceCard 
               title="Full Stack Developer"
               company="Tata Strive"
-              period="2024 - Present"
-              responsibilities={[
+              period="2024 - 2025"
+             responsibilities={[
                 'Developed and maintained enterprise Java applications using Spring Boot',
                 'implemented RESTful APIs using Spring Boot to handle server-side logic',
                 'Implemented responsive front-end interfaces using React.js',
@@ -94,13 +94,26 @@ function App() {
                 'Maintained and deployed applications on cloud environments, ensuring scalability and reliability'
               ]}
             />
+            <ExperienceCard 
+              title="Java Developer"
+              company="Diyos Infotech"
+              period="2025 - Present"
+               responsibilities={[
+                'Developed and maintained enterprise Java applications using Spring Boot',
+                'Handling multiple projects, including Defence GTS, PMS, True HR, and ATS Model',
+                'Implemented RESTful APIs using Spring Boot to manage server-side logic and integrations',
+                'Utilized Git for version control branches, and collaborating effectively with the development team',
+                'Implemented custom optimized queries to improve performance, scalability, and reliability'
+              ]}
+
+            />
           </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="py-8 text-center text-gray-400">
-        <p>© 2024 Pavan Kumar Tungala All rights reserved.</p>
+        <p>© 2025 Pavan Kumar Tungala All rights reserved.</p>
       </footer>
     </div>
   );
