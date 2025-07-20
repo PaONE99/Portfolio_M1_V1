@@ -114,6 +114,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 text-center text-gray-400">
         <p>© 2025 Pavan Kumar Tungala All rights reserved.</p>
+        <p>© 2025 Pavan Kumar Tungala All rights reserved.</p>
       </footer>
     </div>
   );
