@@ -69,8 +69,8 @@ function App() {
               tech={['Monolithic', 'Spring Boot', 'React', 'My SQL','UI & UX','Looker Studio']}
             />
             <ProjectCard 
-              title="PMS(Performance Measurement System)"
-              description="Built an application with real-time data. Features include Employee Performance Measurement Using BSC Model, progress tracking, Employee Rating, Multi Level Approval System custom query manipulating data"
+              title="PMS(Performance Management System)"
+              description="Built an application with real-time data. Features include Employee Performance Management System Using BSC Model, progress tracking, Employee Rating, Multi Level Approval System custom query manipulating data"
               tech={['Monolithic', 'Spring Boot', 'My SQL']}
             />
           </div>
